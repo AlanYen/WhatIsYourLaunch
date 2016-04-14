@@ -14,6 +14,8 @@
 		2D1DB4A01CBDD65B00D80B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1DB49E1CBDD65B00D80B12 /* LaunchScreen.storyboard */; };
 		2D1DB4AB1CBDD65C00D80B12 /* WhatIsYourLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DB4AA1CBDD65C00D80B12 /* WhatIsYourLaunchTests.swift */; };
 		2D1DB4B61CBDD65C00D80B12 /* WhatIsYourLaunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DB4B51CBDD65C00D80B12 /* WhatIsYourLaunchUITests.swift */; };
+		2D1DB4C41CBDD7CD00D80B12 /* ALLauch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DB4C31CBDD7CD00D80B12 /* ALLauch.swift */; };
+		2D1DB4C61CBDDF5D00D80B12 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DB4C51CBDDF5D00D80B12 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2D1DB4B11CBDD65C00D80B12 /* WhatIsYourLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatIsYourLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1DB4B51CBDD65C00D80B12 /* WhatIsYourLaunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourLaunchUITests.swift; sourceTree = "<group>"; };
 		2D1DB4B71CBDD65C00D80B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1DB4C31CBDD7CD00D80B12 /* ALLauch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALLauch.swift; sourceTree = "<group>"; };
+		2D1DB4C51CBDDF5D00D80B12 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				2D1DB4951CBDD65B00D80B12 /* AppDelegate.swift */,
 				2D1DB4971CBDD65B00D80B12 /* ViewController.swift */,
+				2D1DB4C51CBDDF5D00D80B12 /* LaunchViewController.swift */,
 				2D1DB4991CBDD65B00D80B12 /* Main.storyboard */,
 				2D1DB49C1CBDD65B00D80B12 /* Assets.xcassets */,
 				2D1DB49E1CBDD65B00D80B12 /* LaunchScreen.storyboard */,
 				2D1DB4A11CBDD65B00D80B12 /* Info.plist */,
+				2D1DB4C31CBDD7CD00D80B12 /* ALLauch.swift */,
 			);
 			path = WhatIsYourLaunch;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1DB4C41CBDD7CD00D80B12 /* ALLauch.swift in Sources */,
 				2D1DB4981CBDD65B00D80B12 /* ViewController.swift in Sources */,
 				2D1DB4961CBDD65B00D80B12 /* AppDelegate.swift in Sources */,
+				2D1DB4C61CBDDF5D00D80B12 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
